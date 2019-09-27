@@ -24,5 +24,11 @@ public static int beregnMinus3(int i) {
 public static int beregnMinus9(int i) {
     return -9;
 }
-
+        {
+        int resultat = 1;
+        for (int b = 1; b <= 5; b++) {
+            resultat = resultat * b;
+            System.out.println(resultat);
+        }
+    }
 }
